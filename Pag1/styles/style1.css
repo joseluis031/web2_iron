@@ -1,0 +1,119 @@
+@media (max-width: 600px) {}
+    /* Aquí va tu estilo para pantallas con un ancho máximo de 600px */
+
+
+
+
+* {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+body {
+    color: #313130;
+    margin: 0;
+    padding: 0;
+}
+
+.separator {
+    position: absolute;
+    width: 1px;
+    background-color: #725e5e;
+    height: 13.5%;
+    top: 0;
+    left: 20%;
+    border-radius: 1px; /* Agregamos bordes redondeados a la línea de separación */
+}
+
+.column1 {
+    float: left;
+    width: 22%;
+}
+
+.column2 {
+    float: left;
+    width: 75%;
+}
+
+.header {
+    background-color: #ff2c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px; /* Bordes redondeados solo en la parte superior del encabezado */
+}
+
+.header2 {
+    background-color: #ff2c2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    border-radius: 0 10px 10px 0px; /* Bordes redondeados solo en la parte inferior del encabezado */
+}
+
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* styles.css */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    text-align: center;
+    max-width: 30%;
+}
+
+
+
+
+
+.spacer {
+    background-color: transparent;
+    height: 20px;
+}
+
+.content {
+    background-color: #ffffff;
+    color: #313130;
+    padding: 135px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al contenido */
+}
+
+.footer {
+    background-color: #a7c9eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al footer */
+}
+
+span {
+    font-style: italic; /* Aplicar estilo cursiva */
+    font-weight: bold;  /* Aplicar estilo negrita */
+}

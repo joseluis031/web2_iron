@@ -1,0 +1,125 @@
+* {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+body {
+    color: #313130;
+    margin: 0;
+    padding: 0;
+}
+
+.separator {
+    position: absolute;
+    width: 1px;
+    background-color: #725e5e;
+    height: 13.5%;
+    top: 0;
+    left: 20%;
+    border-radius: 1px; /* Agregamos bordes redondeados a la línea de separación */
+}
+
+.column1 {
+    float: left;
+    width: 22%;
+}
+
+.column2 {
+    float: left;
+    width: 75%;
+}
+
+.header {
+    background-color: #e7d1b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px; /* Bordes redondeados solo en la parte superior del encabezado */
+}
+
+.header2 {
+    background-color: #e7d1b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    border-radius: 0 10px 10px 0px; /* Bordes redondeados solo en la parte inferior del encabezado */
+}
+
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #f49d94;
+    color: white;
+    padding: 136px;
+    width: 0%;
+    margin: 0;
+    float: left;
+    clear: both;
+    border-right: 1px solid #ffffff;
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior, pero no en la parte inferior */
+}
+
+.sidebar2 {
+    background-color: #f49d94;
+    color: white;
+    padding: 136px;
+    width: 0%;
+    margin: 0;
+    float: left;
+    clear: both;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #725e5e; /* Borde superior no redondeado */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados en la parte inferior, pero no en la parte superior */
+}
+
+
+.spacer {
+    background-color: transparent;
+    height: 20px;
+}
+
+.content {
+    background-color: #c7fbdd;
+    color: #313130;
+    padding: 135px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al contenido */
+}
+
+.footer {
+    background-color: #a7c9eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al footer */
+}
+.footer2 {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al footer */
+}
+
+
+img.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span {
+    background-color: #9d90fc;
+    text-decoration: underline;
+}
+
+#div1{
+    text-align: center;
+    text-decoration: underline;
+
+}

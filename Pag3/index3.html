@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="styles/style3.css">
+
+</head>
+
+<body>
+    <div class="footer">
+        <h1><span>Formulario de Registro</span></h1>
+
+            <form action="procesar.php" method="POST"> <!--Inicia un formulario HTML utilizando el elemento <form>. El atributo action especifica la URL del script de procesamiento ("procesar.php") al que se enviarán los datos del formulario. El atributo method se establece en "POST" para enviar los datos al servidor de manera segura. -->
+                <label for="seleccionar">Seleccionar tu deporte favorito para mantenerte actualizado:</label> <!-- Crea una etiqueta de texto descriptiva para el elemento <select> que sigue. La etiqueta se asocia al elemento <select> mediante el atributo for.-->
+                <select id="seleccionar" name="opcion"> <!-- Define un elemento <select> que permite a los usuarios elegir una opción de una lista desplegable. El atributo id se utiliza para asociar la etiqueta anterior, y el atributo name es el nombre del campo que se enviará al servidor cuando se envíe el formulario.-->
+                    <option value="opcion1">Futbol</option> <!-- Define opciones dentro del elemento <select>. Cada <option> tiene un atributo value que define el valor que se enviará al servidor cuando se seleccione esa opción. El texto dentro de las etiquetas <option> es lo que se muestra al usuario.-->
+                    <option value="opcion2">Baloncesto</option>
+                    <option value="opcion3">Tenis</option>
+                    <option value="opcion4">Todos los deportes</option>
+
+                </select>
+                <br>
+                <label for="nombre">Nombre:</label> <!--Crea una etiqueta de texto descriptiva para el campo de texto que sigue. La etiqueta se asocia al campo de texto mediante el atributo for.
+                    html
+                    -->
+                <input type="text" id="nombre" name="nombre"> <!--Define un campo de texto <input> que permite a los usuarios ingresar su nombre. El atributo type se establece en "text", el atributo id se utiliza para asociar la etiqueta anterior, y el atributo name es el nombre del campo que se enviará al servidor.-->
+                <br>
+                <br>
+
+                <label for="correo">Correo Electrónico:</label> <!--Crea una etiqueta de texto descriptiva para el campo de correo electrónico que sigue. La etiqueta se asocia al campo de correo electrónico mediante el atributo for.-->
+                <input type="email" id="correo" name="correo"> <!--Define un campo de correo electrónico <input> que permite a los usuarios ingresar su dirección de correo electrónico. El atributo type se establece en "email", el atributo id se utiliza para asociar la etiqueta anterior, y el atributo name es el nombre del campo que se enviará al servidor.-->
+                <br>
+
+                <br> <!-- The <br> tag inserts a single line break. -->
+
+                <label for="comentario">Comentario(Tus equipos favoritos):</label> <!--Crea una etiqueta de texto descriptiva para el elemento <textarea> que sigue. La etiqueta se asocia al elemento <textarea> mediante el atributo for.-->
+                <textarea id="comentario" name="comentario" rows="1" cols="30"></textarea> <!--Define un elemento <textarea> que permite a los usuarios ingresar comentarios. El atributo id se utiliza para asociar la etiqueta anterior, y el atributo name es el nombre del campo que se enviará al servidor. Los atributos rows y cols definen el número de filas y columnas visibles del área de texto.
+                    html
+                    -->
+                <br>
+
+                <input type="submit" value="Enviar"> <!--Define un botón de envío <input>-->
+    
+            </form>
+
+    </div>
+
+    
+    <div class="div1">
+        <h1>¡¡GRACIAS POR CONFIAR SIEMPRE EN NOSOTROS!!</h1>
+    
+    </div>
+    <div class="footer2">
+        <img src="https://cdn.gpblog.com/news/2023/09/30/v2_large_1db812df16c78c1a7e96a04b53eaac801e1c2c97.jpg", alt="imagen" width="500",class="centered-image">
+
+
+
+
+    </div>
+    
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
