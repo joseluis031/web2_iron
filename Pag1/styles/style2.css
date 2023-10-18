@@ -1,3 +1,11 @@
+@media (max-width: 700px) {
+
+    .side-div img {
+        width: 100px;
+        height: auto;
+    }
+
+}
 
 
 .header2 {
@@ -44,10 +52,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-.side-div img {
-    width: 200px;
-    height: auto;
-}
+
 .footer {
     background-color: #f1f1f1;
     color: rgb(0, 0, 0);
