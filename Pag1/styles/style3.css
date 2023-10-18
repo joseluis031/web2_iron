@@ -1,0 +1,79 @@
+* {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+body {
+    color: #313130;
+    margin: 0;
+    padding: 0;
+}
+
+.separator {
+    position: absolute;
+    width: 1px;
+    background-color: #725e5e;
+    height: 13.5%;
+    top: 0;
+    left: 20%;
+    border-radius: 1px; /* Agregamos bordes redondeados a la línea de separación */
+}
+
+
+
+
+
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+.spacer {
+    background-color: transparent;
+    height: 20px;
+}
+
+.content {
+    background-color: #c7fbdd;
+    color: #313130;
+    padding: 135px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al contenido */
+}
+
+.footer {
+    background-color: #e6e6e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al footer */
+}
+.footer2 {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Agregamos bordes redondeados al footer */
+}
+
+
+img.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span {
+    background-color: #d4cefc;
+    text-decoration: underline;
+}
+
+#div1{
+    text-align: center;
+    text-decoration: underline;
+
+}
